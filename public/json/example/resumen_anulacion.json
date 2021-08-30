@@ -1,0 +1,14 @@
+{
+  "fecha_de_emision_de_documentos": "2018-10-10",
+  "codigo_tipo_proceso": "3",
+  "documentos": [
+    {
+      "external_id": "1",
+      "motivo_anulacion": "x"
+    },
+    {
+      "external_id": "2",
+      "motivo_anulacion": "y"
+    }
+  ]
+}

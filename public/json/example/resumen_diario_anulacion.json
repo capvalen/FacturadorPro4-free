@@ -1,0 +1,14 @@
+{
+  "fecha_de_emision_de_documentos": "2018-10-09",
+  "codigo_tipo_proceso": "3",
+  "documentos": [
+    {
+      "external_id": "44d1fd8f-b944-4c3e-b5dc-9ed168f62d4b",
+      "motivo_anulacion": "Se duplico documento"
+    },
+    {
+      "external_id": "350c6306-35cb-46ab-97de-4002b7c1c4f0",
+      "motivo_anulacion": "Número de cliente incorrecto"
+    }
+  ]
+}

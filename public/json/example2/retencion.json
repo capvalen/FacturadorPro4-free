@@ -1,0 +1,79 @@
+{
+  "serie_documento": "R001",
+  "numero_documento": "#",
+  "fecha_de_emision": "2018-10-09",
+  "hora_de_emision": "10:11:11",
+  "codigo_tipo_documento": "20",
+  "datos_del_emisor": {
+    "codigo_del_domicilio_fiscal": "0000"
+  },
+  "datos_del_proveedor":{
+    "codigo_tipo_documento_identidad": "6",
+    "numero_documento": "10414711225",
+    "apellidos_y_nombres_o_razon_social": "EMPRESA XYZ S.A.",
+    "nombre_comercial": "EMPRESA XYZ",
+    "codigo_pais": "PE",
+    "ubigeo": "150101",
+    "direccion": "Av. 2 de Mayo",
+    "correo_electronico": "demo@gmail.com",
+    "telefono": "427-1148"
+  },
+  "codigo_tipo_retencion": "01",
+  "observaciones": "-",
+  "totales": {
+    "total_retenido": 30.00,
+    "total_pagado": 1000.00
+  },
+  "documentos":[
+    {
+      "codigo_tipo_documento": "01",
+      "serie_documento": "F001",
+      "numero_documento": "3",
+      "fecha_de_emision": "2018-10-09",
+      "codigo_tipo_moneda": "PEN",
+      "pagos": [
+        {
+          "fecha_de_pago": "2018-10-09",
+          "total_pago": 200.00,
+          "codigo_tipo_moneda": "PEN"
+        }
+      ],
+      "tipo_de_cambio": {
+        "codigo_tipo_moneda_referencia": "PEN",
+        "codigo_tipo_moneda_objetivo": "PEN",
+        "factor": 1,
+        "fecha_tipo_de_cambio": "2018-10-09"
+      },
+      "fecha_de_retencion": "2018-10-09",
+      "total_documento": 400.00,
+      "total_retenido": 12.00,
+      "total_a_pagar": 412.00,
+      "total_pagado": 412.00
+    },
+    {
+      "codigo_tipo_documento": "01",
+      "serie_documento": "F001",
+      "numero_documento": "4",
+      "fecha_de_emision": "2018-10-09",
+      "codigo_tipo_moneda": "USD",
+      "total_documento": 200.00,
+      "pagos": [
+        {
+          "fecha_de_pago": "2018-10-09",
+          "total_pago": 200.00,
+          "codigo_tipo_moneda": "USD"
+        }
+      ],
+      "tipo_de_cambio": {
+        "codigo_tipo_moneda_referencia": "USD",
+        "codigo_tipo_moneda_objetivo": "PEN",
+        "factor": 3.00,
+        "fecha_tipo_de_cambio": "2018-10-09"
+      },
+      "fecha_de_retencion": "2018-10-09",
+      "total_retenido": 18.00,
+      "total_a_pagar": 618.00,
+      "total_pagado": 618.00
+    }
+  ]
+}

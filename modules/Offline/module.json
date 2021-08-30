@@ -1,0 +1,14 @@
+{
+    "name": "Offline",
+    "alias": "offline",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Offline\\Providers\\OfflineServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

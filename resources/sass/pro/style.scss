@@ -1,0 +1,43 @@
+/*
+Template Name: Admin Pro Admin
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/**
+ * Table Of Content
+ *
+ * 	1. Globals
+ *	2. Headers
+ *	3. Navigations
+ *	4. Banners
+ *	5. Footers
+ *	6. app
+ *	7. Widgets
+ *	8. Custom Templates
+ */
+@import '~bootstrap/scss/bootstrap';
+
+@import 'variable'; 
+@import 'app';
+@import 'sidebar';
+@import 'pages/pages'; 
+@import '../css/icons/font-awesome/css/fontawesome-all.css';
+@import '../css/icons/simple-line-icons/css/simple-line-icons.css';
+@import '../css/icons/weather-icons/css/weather-icons.min.css';
+@import '../css/icons/linea-icons/linea.css';
+@import '../css/icons/themify-icons/themify-icons.css';
+@import '../css/icons/flag-icon-css/flag-icon.min.css';
+// @import '../css/icons/material-design-iconic-font/css/materialdesignicons.min.css';
+@import 'widgets/widgets';
+@import 'grid';
+@import 'responsive'; 
+@import '../css/spinners';
+@import '../css/animate.css';
+@import 'colors/blue';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+
+@import 'components/table';
+@import 'custom';
+   

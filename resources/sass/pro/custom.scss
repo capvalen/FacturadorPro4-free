@@ -1,0 +1,27 @@
+.el-date-editor.el-input,
+.el-input,
+.el-input-number,
+.el-select {
+  width: 100%;
+}
+.el-input-number .el-input__inner {
+  text-align: right;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
+.input-text-right {
+  input {
+    text-align: right;
+  }
+}
+.button-xlarge {
+  font-size: 20px;
+  padding: 18px 22px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

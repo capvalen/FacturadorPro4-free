@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "cantidad": "1.0000",
+      "total_igv": "24.41",
+      "total_item": "160.00",
+      "descripcion": "Habitación Simple - Nro. 412|Huésped: DNI 41236781 - AZAÑEDO CASTILLO, ERICKA MILAGRITOS",
+      "porcentaje_igv": "18.00",
+      "total_base_igv": "135.59",
+      "valor_unitario": "160.0000",
+      "precio_unitario": "160.0000",
+      "total_impuestos": "24.41",
+      "total_valor_item": "135.59",
+      "unidad_de_medida": "ZZ",
+      "codigo_tipo_precio": "01",
+      "codigo_tipo_afectacion_igv": "10"
+    }
+  ],
+  "cliente": {
+    "ubigeo": "130101",
+    "telefono": "294000 / 481890 / 949924502 / 949914013",
+    "direccion": "JR. PIZARRO NRO. 458 CERCADO (CAJA TRUJILLO FRENTE A PLAZA DE ARMAS)",
+    "codigo_pais": "PE",
+    "nombre_comercial": "-",
+    "numero_documento": "20132243230",
+    "razon_social_o_nombre": "CAJA MUNICIPAL DE AHORRO Y CREDITO DE TRUJILLO SA - CAJA TRUJILLO",
+    "codigo_tipo_documento_identidad": "6"
+  },
+  "empresa": {
+    "nombre": "HOTEL SAN REMO S.R.L.",
+    "numero": "20308674755",
+    "nombre_comercial": "HOTEL SAN REMO S.R.L."
+  },
+  "entorno": "02",
+  "totales": {
+    "total_igv": "24.41",
+    "total_valor": "135.59",
+    "total_venta": "160",
+    "total_impuestos": "24.41",
+    "total_exportacion": "0",
+    "total_operaciones_gravadas": "135.59",
+    "total_operaciones_gratuitas": "0",
+    "total_operaciones_inafectas": "0",
+    "total_operaciones_exoneradas": "0"
+  },
+  "establecimiento": {
+    "ubigeo": "150116",
+    "telefono": "(+511)266-0745 / (+511)265-6691",
+    "direccion": "Cal. Bartolomé Herrera Nro. 294",
+    "correo_electronico": "reservas@hotelsanremoperu.com",
+    "codigo_del_domicilio_fiscal": "0000"
+  },
+  "hora_de_emision": "19:08:38",
+  "serie_documento": "F001",
+  "fecha_de_emision": "2019-05-14",
+  "numero_documento": "1775",
+  "codigo_tipo_moneda": "PEN",
+  "codigo_tipo_documento": "01",
+  "codigo_tipo_operacion": "0101"
+}

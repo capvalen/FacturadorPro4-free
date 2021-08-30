@@ -1,0 +1,14 @@
+{
+    "name": "LevelAccess",
+    "alias": "levelaccess",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\LevelAccess\\Providers\\LevelAccessServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

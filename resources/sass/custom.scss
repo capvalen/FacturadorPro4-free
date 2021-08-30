@@ -1,0 +1,247 @@
+.el-date-editor.el-input,
+.el-input,
+.el-input-number,
+.el-select {
+    width: 100%;
+}
+
+.el-input-number .el-input__inner {
+    text-align: right;
+}
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.input-text-right {
+    input {
+        text-align: right;
+    }
+}
+
+.button-xlarge {
+    font-size: 20px;
+    padding: 18px 22px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certificate-form {
+    .el-dialog {
+        max-width: 600px;
+    }
+
+    .el-upload {
+        width: 100%;
+
+        .el-button {
+            width: 100%;
+        }
+    }
+}
+
+.el-textarea__inner {
+    height: 40px !important;
+    min-height: 40px !important;
+}
+
+.chart-data-selector {
+    height: 274px;
+}
+
+.chartjs-render-monitor {
+    height: 261px !important;
+}
+
+.title-chart {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+
+.m-1__2 {
+    margin: 0.1rem !important;
+}
+
+.dialog-import {
+    .el-dialog {
+        width: 500px !important;
+    }
+}
+
+.pricing-table h3 span {
+    font-size: 20px !important;
+}
+
+.pricing-table h3 {
+    padding: 10px !important;
+}
+
+.data-table-visible-columns {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 5;
+}
+
+.short-text {
+    display: none;
+}
+
+.full-text {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1024px) {
+    .short-text {
+        display: inline-block;
+    }
+    .full-text {
+        display: none;
+    }
+}
+
+.separator-title {
+    position: relative;
+    color: #303133;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    &:before {
+        content: "";
+        width: 100%;
+        border-bottom: solid 1px #dcdfe6;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        z-index: 1;
+    }
+}
+
+.el-cascader {
+    width: 100%;
+}
+
+.card.card-dashboard {
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    border-radius: 5px;
+    border: none;
+
+    .card-body {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .card-title {
+        font-weight: 500;
+        font-size: 14px;
+        min-height: 60px;
+    }
+    &.card-reports {
+        height: 100%;
+        .card-title {
+            min-height: 36px;
+        }
+    }
+    .table {
+        td,
+        th {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        th{
+            font-weight: 600;
+        }
+    }
+}
+.card-report-links {
+    padding-left: 1rem;
+    margin-bottom: 0;
+    li {
+        margin-bottom: 0.5rem;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    a {
+        display: block;
+        color: #33353f;
+        font-size: 13px;
+        font-weight: 500;
+        &:hover {
+            color: #33353f;
+        }
+    }
+}
+html.dark {
+    .card.card-dashboard {
+        color: #5bc0de;
+    }
+}
+
+.pos-list-items {
+    .pos-list-label {
+        padding-top: 6px;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .item-description {
+        font-size: 11px;
+        margin: 0;
+        line-height: 16px;
+    }
+    .el-input__inner {
+        font-size: 11px;
+        text-align: right;
+        padding: 0 6px;
+    }
+}
+.el-tree-node__expand-icon {
+    font-size: 16px;
+    color: #303133;
+    margin-top: -2px;
+}
+.el-tree-node__content {
+    height: 30px;
+    .el-checkbox__input {
+        margin-top: 6px;
+    }
+}
+.tree-container-admin {
+    height: 200px;
+    overflow-y: scroll;
+}
+.container-btns {
+    display: none;
+}
+@media (max-width: 768px) {
+    .container-tabs {
+        display: none;
+    }
+    .container-btns {
+        display: block;
+    }
+}
+
+.card-table-report {
+    font-size: 12px;
+}
+
+.dialog-modal {
+    .el-dialog__body {
+        padding-top: 10px;
+        .form-group {
+            margin-bottom: 5px;
+            .control-label {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+  "serie_documento": "F001",
+  "numero_documento": "#",
+  "fecha_de_emision": "2018-10-09",
+  "hora_de_emision": "10:11:11",
+  "codigo_tipo_documento":"07",
+  "codigo_tipo_nota": "01",
+  "motivo_o_sustento_de_la_nota": "Error al emitir comprobante",
+  "codigo_tipo_moneda": "PEN",
+  "numero_orden_de_compra": "0045467898",
+  "documento_afectado": {
+    "serie_documento": "F001",
+    "numero_documento": "1",
+    "codigo_tipo_documento": "07"
+  },
+  "datos_del_cliente_o_receptor":{
+    "codigo_tipo_documento_identidad": "6",
+    "numero_documento": "10414711225",
+    "apellidos_y_nombres_o_razon_social": "EMPRESA XYZ S.A.",
+    "codigo_pais": "PE",
+    "ubigeo": "150101",
+    "direccion": "Av. 2 de Mayo",
+    "correo_electronico": "demo@gmail.com",
+    "telefono": "427-1148"
+  },
+  "descuentos":[
+    {
+      "codigo": "02",
+      "descripcion": "Descuento por aniversario",
+      "porcentaje": 0.00,
+      "monto": 0.00,
+      "base": 0.00
+    }
+  ],
+  "cargos":[
+    {
+      "codigo": "46",
+      "descripcion": "Recargo por servicio",
+      "porcentaje": 0.00,
+      "monto": 0.00,
+      "base": 0.00
+    }
+  ],
+  "totales": {
+    "total_anticipos": 0.00,
+    "total_descuentos": 0.00,
+    "total_cargos": 0.00,
+    "total_exportacion": 0.00,
+    "total_operaciones_gratuitas": 0.00,
+    "total_operaciones_gravadas": 0.00,
+    "total_operaciones_inafectas": 0.00,
+    "total_operaciones_exoneradas": 0.00,
+    "total_igv": 0.00,
+    "total_base_isc": 0.00,
+    "total_isc": 0.00,
+    "total_base_otros_impuestos": 0.00,
+    "total_otros_impuestos": 0.00,
+    "total_impuestos": 0.00,
+    "total_valor": 0.00,
+    "total_venta": 0.00
+  },
+  "items":[
+    {
+      "codigo_interno": "P0121",
+      "descripcion":"Inca Kola 250 ml",
+      "codigo_producto_sunat": "51121703",
+      "codigo_producto_gsl": "51121703",
+      "unidad_de_medida": "NIU",
+      "cantidad": 2,
+      "valor_unitario": 0.00,
+      "codigo_tipo_precio": "02",
+      "precio_unitario": 50,
+      "codigo_tipo_afectacion_igv": "16",
+      "total_base_igv": 0.00,
+      "porcentaje_igv": 18,
+      "total_igv": 0.00,
+      "codigo_tipo_sistema_isc": "",
+      "total_base_isc": 0.00,
+      "porcentaje_isc": 18,
+      "total_isc": 0.00,
+      "total_base_otros_impuestos": "",
+      "porcentaje_otros_impuestos": 0.00,
+      "total_otros_impuestos": 0.00,
+      "total_impuestos": 0.00,
+      "total_valor_item": 0.00,
+      "total_item": 0.00,
+      "cargos":[
+        {
+          "codigo": "47",
+          "descripcion": "Cargo por producto extra",
+          "porcentaje": 0.10,
+          "monto": 10.00,
+          "base": 100.00
+        }
+      ],
+      "descuentos":[
+        {
+          "codigo": "00",
+          "descripcion": "Descuento por scotibank",
+          "porcentaje": 0.10,
+          "monto": 10.00,
+          "base": 100.00
+        }
+      ],
+      "datos_adicionales": [
+        {
+          "codigo": "7000",
+          "nombre": "Número de Placa",
+          "valor": "ASD 124",
+          "fecha_inicio": "2018-12-10",
+          "fecha_fin": "2018-12-14",
+          "duracion": "4"
+        }
+      ]
+    }
+  ],
+  "detraccion": {
+    "codigo": "",
+    "porcentaje": 0.00,
+    "monto": 0.00,
+    "codigo_metodo_pago": "",
+    "cuenta_bancaria": "21216547578"
+  },
+  "percepcion": {
+    "codigo": "",
+    "porcentaje": 0.00,
+    "monto": 0.00,
+    "base": 0.00
+  },
+  "anticipos":[
+    {
+      "numero": "12",
+      "codigo_tipo_documento": "01",
+      "monto": 10.00
+    },
+    {
+      "numero": "14",
+      "codigo_tipo_documento": "01",
+      "monto": 20.00
+    }
+  ],
+  "guias":[
+    {
+      "numero": "12",
+      "codigo_tipo_documento": "09"
+    },
+    {
+      "numero": "14",
+      "codigo_tipo_documento": "09"
+    }
+  ],
+  "documentos_relacionados":[
+    {
+      "numero": "12",
+      "codigo_tipo_documento": "01"
+    },
+    {
+      "numero": "14",
+      "codigo_tipo_documento": "01"
+    }
+  ],
+  "leyendas": [
+    {
+      "codigo": "1002",
+      "valor": "TRANSFERENCIA GRATUITA"
+    }
+  ],
+  "extras":{
+    "forma_de_pago": "Efectivo",
+    "observaciones": "probando",
+    "vendedor": "Juan",
+    "caja": "Caja 1"
+  }
+}

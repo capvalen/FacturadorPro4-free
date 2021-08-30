@@ -1,0 +1,65 @@
+body {
+    direction: ltr;
+    font-size: 100%;
+    font-family: 'monospace', sans-serif;
+    max-width: 50mm;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    max-width: 50mm;
+    /*width: 100%;*/
+    border-spacing: 0;
+    font-size: 8px;
+}
+
+.table-main {
+    max-width: 50mm;
+    border: 1px solid red;
+    margin: 0;
+}
+
+.width-auto {
+    width: 1px;
+}
+
+.border-all {
+    border: thin solid #ccc;
+    border-top: 0;
+}
+
+.cell-bold {
+    font-weight: bold;
+}
+
+.cell-right {
+    text-align: right;
+}
+
+.cell-center {
+    text-align: center;
+}
+
+.barcode {
+    width: 250px;
+}
+
+.qr_code {
+    width: 120px;
+}
+
+.border-top {
+    border-top: thin solid  #ccc;
+}
+
+.border-bottom {
+    border-bottom: thin solid  #ccc;
+}
+
+.font-large {
+    font-size: 18px;
+}
+.cell-top {
+    vertical-align: top;
+}
